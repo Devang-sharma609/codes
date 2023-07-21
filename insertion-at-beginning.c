@@ -1,4 +1,4 @@
-
+//Doubly linked list
 void addAtBeginning()
 {
     struct node *temp;
@@ -12,7 +12,7 @@ void addAtBeginning()
     {
         root = temp;
     }
-    else
+    else 
     {
         temp->right = root; // right connection
         root->left = temp;  // left connection
